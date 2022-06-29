@@ -1,0 +1,102 @@
+[
+  {
+    "name": "User 1",
+    "username": "andrew2",
+    "city": "Bishkek",
+    "avatar": "https://avatars3.githubusercontent.com/u/1071625?s=400&u=f19e921ec34fc145d2b0b05f6cdd3472240c885b&v=4",
+    "hobbies": [
+      "hobbi1",
+      "hobbi2",
+      "hobbi3",
+      "hobbi4"
+    ]
+  },
+  {
+    "name": "User 2",
+    "username": "andrew3",
+    "city": "Tashkent",
+    "avatar": "https://avatars3.githubusercontent.com/u/1071625?s=400&u=f19e921ec34fc145d2b0b05f6cdd3472240c885b&v=4",
+    "hobbies": [
+      "hobb1"
+    ]
+  },
+  {
+    "name": "User 3",
+    "username": "andrew4",
+    "city": "Kiev",
+    "avatar": "https://avatars3.githubusercontent.com/u/1071625?s=400&u=f19e921ec34fc145d2b0b05f6cdd3472240c885b&v=4",
+    "hobbies": [
+      "hobb1"
+    ]
+  },
+  {
+    "name": "Andrew 5",
+    "username": "andrew5",
+    "city": "Bishkek",
+    "avatar": "https://avatars3.githubusercontent.com/u/1071625?s=400&u=f19e921ec34fc145d2b0b05f6cdd3472240c885b&v=4",
+    "hobbies": []
+  },
+  {
+    "name": "Andrew 6",
+    "username": "andrew6",
+    "city": "Bishkek",
+    "avatar": "https://avatars3.githubusercontent.com/u/1071625?s=400&u=f19e921ec34fc145d2b0b05f6cdd3472240c885b&v=4",
+    "hobbies": []
+  },
+  {
+    "name": "Andrew 7",
+    "username": "andrew6",
+    "city": "Bishkek",
+    "avatar": "https://avatars3.githubusercontent.com/u/1071625?s=400&u=f19e921ec34fc145d2b0b05f6cdd3472240c885b&v=4",
+    "hobbies": []
+  },
+  {
+    "name": "Andrew 8",
+    "username": "andrew8",
+    "city": "Bishkek",
+    "avatar": "https://avatars3.githubusercontent.com/u/1071625?s=400&u=f19e921ec34fc145d2b0b05f6cdd3472240c885b&v=4",
+    "hobbies": []
+  },
+  {
+    "name": "James2",
+    "username": "andrew9",
+    "city": "Bishkek",
+    "avatar": "https://avatars3.githubusercontent.com/u/1071625?s=400&u=f19e921ec34fc145d2b0b05f6cdd3472240c885b&v=4",
+    "hobbies": []
+  },
+  {
+    "name": "Andrew 10",
+    "username": "andrew10",
+    "city": "Bishkek",
+    "avatar": "https://avatars3.githubusercontent.com/u/1071625?s=400&u=f19e921ec34fc145d2b0b05f6cdd3472240c885b&v=4",
+    "hobbies": []
+  },
+  {
+    "name": "Andrew 11",
+    "username": "andrew11",
+    "city": "Bishkek",
+    "avatar": "https://avatars3.githubusercontent.com/u/1071625?s=400&u=f19e921ec34fc145d2b0b05f6cdd3472240c885b&v=4",
+    "hobbies": []
+  },
+  {
+    "name": "Andrew 12",
+    "username": "andrew12",
+    "city": "Bishkek",
+    "avatar": "https://avatars3.githubusercontent.com/u/1071625?s=400&u=f19e921ec34fc145d2b0b05f6cdd3472240c885b&v=4",
+    "hobbies": []
+  },
+  {
+    "name": "Andrew 13",
+    "username": "andrew13",
+    "city": "Bishkek",
+    "avatar": "https://avatars3.githubusercontent.com/u/1071625?s=400&u=f19e921ec34fc145d2b0b05f6cdd3472240c885b&v=4",
+    "hobbies": []
+  },
+  {
+    "name": "kushbak",
+    "username": "kushbak",
+    "city": "Bishkek",
+    "avatar": "https://avatars3.githubusercontent.com/u/1071625?s=400&u=f19e921ec34fc145d2b0b05f6cdd3472240c885b&v=4",
+    "hobbies": []
+  }
+]

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Handlebars engine</title>
+</head>
+<style>
+  input {
+    margin-bottom: 10px;
+  }
+</style>
+<body>
+  <a href="/">На главную</a>
+  <h1>{{user.name}}</h1>
+
+  <div style="
+    width: 400px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+  ">
+    <div class="img-block">
+      <img width="200" src={{user.avatar}} alt={{user.username}}>
+    </div>
+    <div class="data-block" style="display: flex; flex-direction: column;">
+      <input type="text" name="name" placeholder="name" value={{user.name}} />
+      <input type="hidden" name="username" placeholder="username" value={{user.username}} />
+      <input type="text" name="city" placeholder="city" value={{user.city}} />
+    </div>
+  </div>
+  <div class="hobbies">
+    <div>
+      <input type="text" name="hobby" placeholder="type your hobby">
+      <button type="button" id="sendHobby">Send</button>
+    </div>
+    <ul>
+      {{#each user.hobbies as |hobby|}}
+      <li>
+        {{hobby}}
+      </li>
+      {{/each}}
+    </ul>
+  </div>
+  <script>
+    const name = document.querySelector('input[name="name"]');
+    const username = document.querySelector('input[name="username"]');
+    const city = document.querySelector('input[name="city"]');
+    const button = document.querySelector('#sendHobby');
+    const hobby = document.querySelector('input[name="hobby"]');
+
+
+    const customFetch = (body, method) =>{
+      fetch('/' + username.value, {
+        method: method,
+        body: JSON.stringify(body),
+        headers:{
+          'Content-Type': 'application/json'
+        }
+      })
+     .then(()=>{
+        window.location.reload();
+      });
+    }
+
+    name.addEventListener('blur', () => {
+      customFetch({name: name.value}, 'PUT');
+    })
+    username.addEventListener('blur', () => {
+      customFetch({username: username.value}, 'PUT');
+    })
+    city.addEventListener('blur', () => {
+      customFetch({city: city.value}, 'PUT');
+    })
+    button.addEventListener('click', ()=>{
+      customFetch({hobbies: hobby.value}, 'POST');
+    })
+  </script>
+</body>
+</html>
