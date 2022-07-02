@@ -26,10 +26,10 @@ app.get('/create', (req,res)=>{
   res.render('createUser');
 
 });
-// app.post('/create', upload.none(), (req,res)=>{
-//   const newUser = req.body;
-//   console.log(addUser(newUser));
-// });
+app.post('/create', upload.none(), (req,res)=>{
+  const newUser = req.body;
+  console.log(addUser(newUser));
+});
 app.put('/:username', (req, res)=>{
   const user = getUserByUsername(req.params.username);
   if(!user) return res.status(404).json({message: `User ${req.params.username} does not exist!`});
