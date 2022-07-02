@@ -51,7 +51,7 @@
 
 
     const customFetch = (body, method) =>{
-      fetch('/api/user' + username.value, {
+      fetch('/' + username.value, {
         method: method,
         body: JSON.stringify(body),
         headers:{
