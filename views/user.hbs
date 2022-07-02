@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Handlebars engine</title>
+  <link rel="icon" type="img/png" href="../img/icon/icon.png">
 </head>
 <style>
   input {
@@ -20,7 +21,7 @@
     justify-content: space-between;
   ">
     <div class="img-block">
-      <img width="200" src={{user.avatar}} alt={{user.username}}>
+      <img width="200" src='{{user.avatar}}' alt='{{user.username}}'>
     </div>
     <div class="data-block" style="display: flex; flex-direction: column;">
       <input type="text" name="name" placeholder="name" value={{user.name}} />
@@ -50,7 +51,7 @@
 
 
     const customFetch = (body, method) =>{
-      fetch('/' + username.value, {
+      fetch('/api/user' + username.value, {
         method: method,
         body: JSON.stringify(body),
         headers:{

@@ -1,33 +1,24 @@
 [
   {
-    "name": "User 1",
+    "name": "Andrew 2",
     "username": "andrew2",
     "city": "Bishkek",
     "avatar": "https://avatars3.githubusercontent.com/u/1071625?s=400&u=f19e921ec34fc145d2b0b05f6cdd3472240c885b&v=4",
-    "hobbies": [
-      "hobbi1",
-      "hobbi2",
-      "hobbi3",
-      "hobbi4"
-    ]
+    "hobbies": []
   },
   {
-    "name": "User 2",
+    "name": "Andrew 3",
     "username": "andrew3",
-    "city": "Tashkent",
+    "city": "Bishkek",
     "avatar": "https://avatars3.githubusercontent.com/u/1071625?s=400&u=f19e921ec34fc145d2b0b05f6cdd3472240c885b&v=4",
-    "hobbies": [
-      "hobb1"
-    ]
+    "hobbies": []
   },
   {
-    "name": "User 3",
+    "name": "Andrew 4",
     "username": "andrew4",
-    "city": "Kiev",
+    "city": "Bishkek",
     "avatar": "https://avatars3.githubusercontent.com/u/1071625?s=400&u=f19e921ec34fc145d2b0b05f6cdd3472240c885b&v=4",
-    "hobbies": [
-      "hobb1"
-    ]
+    "hobbies": []
   },
   {
     "name": "Andrew 5",

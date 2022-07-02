@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Create User</title>
+  <link rel="icon" type="img/png" href="../img/icon/icon.png">
+</head>
+<body>
+  <h1>Create new user</h1>
+
+  <form id="create-user-form">
+    {{!-- <img src={{user.image}} alt=""> --}}
+    <input type="text" name="name" placeholder="name">
+    <input type="text" name="username" placeholder="username">
+    <input type="text" name="city" placeholder="city">
+    <button type="submit">Create</button>
+  </form>
+  <script>
+    const form = document.querySelector('#create-user-form')
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault()
+      const formData = new FormData(form)
+      fetch('http://localhost:3000/create', {
+        method: 'POST',
+        body: formData
+      })
+    })
+  </script>
+</body>
+</html>

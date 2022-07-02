@@ -1,3 +1,4 @@
+const { Console } = require('console')
 const fs = require('fs')
 // CRUD  - Create Read Update Delete
 
@@ -49,7 +50,7 @@ exports.getUserByUsername = (username) =>{
   if(!data) throw data
   const users = JSON.parse(data.toString())
 
-  const target = users.find(user => user.username === username);
+  const target = users.find(users => users.username === username);
   if(!target) return null;
   return target;
 }
@@ -61,4 +62,21 @@ exports.addHobby = (obj, string) =>{
   }
   array.push(string);
   return array;
+}
+
+exports.addUser = (obj) => {
+  if(!obj.name && !obj.username && !obj.city){
+    return null;
+  }
+
+  const user = this.getUserByUsername(obj.username);
+  if(user) return null;
+
+  obj['avatar'] = "https://avatars3.githubusercontent.com/u/1071625?s=400&u=f19e921ec34fc145d2b0b05f6cdd3472240c885b&v=4";
+  obj['hobbies'] = [];
+  const data = fs.readFileSync('./text.txt');
+  const users = JSON.parse(data.toString())
+  users.push(obj);
+  fs.writeFileSync('./text.txt', JSON.stringify(users, null, 2));
+
 }
