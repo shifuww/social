@@ -1,6 +1,6 @@
 [
   {
-    "name": "Andrew 2",
+    "name": "Vassya",
     "username": "andrew2",
     "city": "Bishkek",
     "avatar": "https://avatars3.githubusercontent.com/u/1071625?s=400&u=f19e921ec34fc145d2b0b05f6cdd3472240c885b&v=4",
@@ -49,14 +49,14 @@
     "hobbies": []
   },
   {
-    "name": "James2",
+    "name": "Jame",
     "username": "andrew9",
-    "city": "Bishkek",
+    "city": "New-York",
     "avatar": "https://avatars3.githubusercontent.com/u/1071625?s=400&u=f19e921ec34fc145d2b0b05f6cdd3472240c885b&v=4",
     "hobbies": []
   },
   {
-    "name": "Andrew 10",
+    "name": "Sergey",
     "username": "andrew10",
     "city": "Bishkek",
     "avatar": "https://avatars3.githubusercontent.com/u/1071625?s=400&u=f19e921ec34fc145d2b0b05f6cdd3472240c885b&v=4",
@@ -87,6 +87,13 @@
     "name": "kushbak",
     "username": "kushbak",
     "city": "Bishkek",
+    "avatar": "https://avatars3.githubusercontent.com/u/1071625?s=400&u=f19e921ec34fc145d2b0b05f6cdd3472240c885b&v=4",
+    "hobbies": []
+  },
+  {
+    "name": "Nur",
+    "username": "shifu",
+    "city": "Ukraine",
     "avatar": "https://avatars3.githubusercontent.com/u/1071625?s=400&u=f19e921ec34fc145d2b0b05f6cdd3472240c885b&v=4",
     "hobbies": []
   }

@@ -65,7 +65,7 @@ exports.addHobby = (obj, string) =>{
 }
 
 exports.addUser = (obj) => {
-  if(!obj.name && !obj.username && !obj.city){
+  if(!obj.name || !obj.username || !obj.city){
     return null;
   }
 

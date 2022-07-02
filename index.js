@@ -28,7 +28,9 @@ app.get('/create', (req,res)=>{
 });
 app.post('/create', upload.none(), (req,res)=>{
   const newUser = req.body;
-  console.log(addUser(newUser));
+  addUser(newUser);
+  if(!addUser(newUser)) return res.status(404).json({message: 'User do not added'});
+  return res.status(201).json({message: 'User successfully added'});
 });
 app.put('/:username', (req, res)=>{
   const user = getUserByUsername(req.params.username);
